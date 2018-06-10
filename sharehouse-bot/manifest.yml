@@ -1,0 +1,28 @@
+---
+declared-services:
+  conversation-service:
+    label: conversation
+    plan: free
+  natural-language-understanding-service:
+    label: natural-language-understanding
+    plan: free
+  cloudant-service:
+    label: cloudantNoSQLDB
+    plan: Lite
+applications:
+- name: 1chuu_sharehouseProj2018
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  services:
+  - conversation-service
+  - natural-language-understanding-service
+  - cloudant-service
+  env:
+    CLOUDANT_CONTEXT_DB: "calendarbot_context"
+    CLOUDANT_CONVERSATION_DB: "calendarbot_logs"
+    WORKSPACE_ID: "f14d9196-0480-4c1f-bf86-b68f2e5b0381"
+    GOOGLE_CLIENT_ID: "587939130741-r2vq5fe6hvl8uojmg0hiqp5ipnt2b93m.apps.googleusercontent.com"
+    GOOGLE_CLIENT_SECRET: "2CRR3jw1y_vMmV5KnbKaA2bk"
+    GOOGLE_REDIRECT_URI: "urn:ietf:wg:oauth:2.0:oob"
