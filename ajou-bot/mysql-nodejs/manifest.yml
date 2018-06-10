@@ -1,0 +1,7 @@
+---
+applications:
+- name:    1chuu-mysql-nodejs
+  host:    1chuu
+  memory:  256M
+  services:
+    - my-compose-for-mysql-service
