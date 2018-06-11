@@ -1,10 +1,12 @@
 # Chatbot-Projects
 IBM Watson Conversation API를 사용한 카카오톡 챗봇 개발 프로젝트
-- ajou-bot : 아주대학교 강의실 예약 챗봇
-- sharehouse-bot : 캐나다 벤쿠버 유학생 쉐어하우스 & 룸메이트 추천 및 매칭 챗봇
-- HowToUse_Watson_Conversation.mp4
-	- IBM Watson Conversation API를 어떻게 사용하는지 설명하기 위해 제작
-	- MySQL과 연동하여 카카오톡 챗봇으로 개발할 수 있음을 설명하기 위해 제작
+### [ ajou-bot : 아주대학교 강의실 예약 챗봇 ]
+- [아주대학교 강의실 예약 챗봇 채팅 영상](https://drive.google.com/open?id=1wCNadDaWz6ftuJtKfp-BDizHNSR5Ffjt)
+### [ sharehouse-bot : 캐나다 벤쿠버 유학생 쉐어하우스 & 룸메이트 추천 챗봇 ]
+- [유학생 쉐어하우스 & 룸메이트 추천 챗봇 채팅 영상](https://drive.google.com/open?id=1wCNadDaWz6ftuJtKfp-BDizHNSR5Ffjt)
+### [ HowToUse_Watson_Conversation.mp4 ]
+- IBM Watson Conversation API를 어떻게 사용하는지 설명하기 위해 제작
+- MySQL과 연동하여 카카오톡 챗봇으로 개발할 수 있음을 설명하기 위해 제작
 
 </br>
 
